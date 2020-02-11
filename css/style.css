@@ -1,0 +1,30 @@
+.header {
+  display: flex;
+  align-items: center;
+}
+
+.site-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.header__top {
+  display: flex;
+}
+
+.header__bottom {
+  display: flex;
+}
+
+.top__main {
+  display: flex;
+  list-style: none;
+}
+
+.bottom__main {
+  display: flex;
+  list-style: none;
+}
