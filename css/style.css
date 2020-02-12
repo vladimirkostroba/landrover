@@ -1,3 +1,9 @@
+:root {
+  --header-link-kolor: #a4a5a8;
+  --main-font: 'Roboto', sans-serif;
+  --second-font: 'Open Sans', sans-serif;
+}
+
 .header {
   display: flex;
   align-items: center;
@@ -11,20 +17,179 @@
   padding: 0;
 }
 
+/* top */
 .header__top {
   display: flex;
-}
-
-.header__bottom {
-  display: flex;
+  width: 1200px;
 }
 
 .top__main {
   display: flex;
   list-style: none;
+  margin-left: auto;
+  margin-right: 30px;
+}
+
+.top__link {
+  font-family: var(--main-font);
+  font-size: 10px;
+  font-weight: 100;
+  line-height: 1.2;
+  text-decoration: none;
+  color: var(--header-link-kolor);
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.top__link:hover,
+.top__link:focus {
+  color: #3d7d16;
+}
+
+/* bottom */
+.header__bottom {
+  display: flex;
+  width: 1200px;
+  margin: 0;
 }
 
 .bottom__main {
   display: flex;
   list-style: none;
+}
+
+.bottom__link {
+  font-family: var(--main-font);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.2;
+  text-decoration: none;
+  color: var(--header-link-kolor);
+  padding-left: 35px;
+  padding-right: 35px;
+  margin: 0;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  border: solid 1px;
+  border-left: #fff;
+  border-right: #fff;
+}
+
+.bottom__link:hover,
+.bottom__link:focus {
+  color: #686868;
+}
+
+/* ////////// MAIN /////////// */
+
+/* nav */
+
+.container {
+  width: 1365px;
+  background-color: #4a4e5a;
+  margin: 0;
+  padding: 0;
+}
+
+.nav {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.nav__main {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  margin-left: 155px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.nav__link {
+  font-family: var(--main-font);
+  font-size: 10px;
+  font-weight: 100;
+  line-height: 1.6;
+  text-decoration: none;
+  color: var(--header-link-kolor);
+  padding-left: 17px;
+  padding-right: 17px;
+}
+
+.nav__link:hover,
+.nav__link:focus {
+  color: #fff;
+}
+
+/* baner */
+
+.banner {
+  background-image: url(../img/land/225213563.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 800px;
+  display: flex;
+}
+
+.banner__container {
+  margin-left: 100px;
+  margin-top: 100px;
+}
+
+.banner__title {
+  font-family: var(--main-font);
+  font-size: 48px;
+  font-weight: 400;
+  color: #4a4e5a;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.banner__description {
+  font-family: var(--main-font);
+  font-size: 20px;
+  font-weight: 400;
+  color: #4a4e5a;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.banner__main {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.banner__link--1 {
+  font-family: var(--main-font);
+  font-size: 14px;
+  font-weight: 500;
+  color: #fff;
+  text-decoration: none;
+  height: 30px;
+  width: 140px;
+  border: solid #383b45;
+  background-color: #383b45;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.banner__link--1:focus,
+.banner__link--1:hover {
+  background-color: #929294;
+  border-color: #929294;
+}
+
+.banner__link--2 {
+  font-family: var(--main-font);
+  font-size: 14px;
+  font-weight: 300;
+  color: #4a4e5a;
+  text-decoration: none;
 }
