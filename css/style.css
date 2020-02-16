@@ -223,7 +223,7 @@ body {
 }
 
 .models__link-card {
-  margin-left: 150px;
+  margin-left: 50px;
   margin-top: 100px;
 }
 
@@ -244,7 +244,7 @@ body {
 }
 
 .models__text-card {
-  margin-left: 160px;
+  margin-left: 60px;
   margin-top: 200px;
 }
 
@@ -286,11 +286,13 @@ body {
 
 .car {
   display: flex;
+  margin-bottom: 0;
 }
 
-.car-img {
-  height: 690px;
+/.car-img {
+  height: 675px;
   width: 675px;
+  margin-bottom: -5px;
 }
 
 .car-text {
@@ -357,4 +359,93 @@ body {
 .car-text__link--2:hover,
 .car-text__link--2:focus {
   color: #fff;
+}
+
+/* ///////   CAPABILITY   ////////// */
+.capability {
+  display: flex;
+  width: 1375px;
+}
+
+.capability-1 {
+  width: 675px;
+  height: 690;
+}
+
+.capability-1__text {
+  margin-left: 60px;
+  margin-top: 150px;
+}
+
+.capability-1__link {
+  font-family: var(--main-font);
+  font-size: 14px;
+  color: var(--header-link-kolor);
+  text-decoration: none;
+  border: solid 1px;
+  border-left: none;
+  border-right: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 35px;
+  margin-bottom: 60px;
+}
+
+.capability-1__title {
+  font-family: var(--main-font);
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--header-link-kolor);
+  margin: 0;
+  margin-bottom: 15px;
+}
+
+.capability-1__description {
+  font-family: var(--main-font);
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 1.6;
+  color: var(--header-link-kolor);
+  width: 350px;
+  margin-bottom: 60px;
+}
+
+/* //////  build  ////// */
+
+.build__link--1 {
+  font-family: var(--main-font);
+  font-size: 14px;
+  color: var(--header-link-kolor);
+  text-decoration: none;
+  border: solid 2px black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 180px;
+  height: 50px;
+  margin-bottom: 20px;
+  scale: 1;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+}
+
+.build__link--1:hover,
+.build__link--1:focus {
+  color: black;
+}
+
+.build__link--2 {
+  font-family: var(--main-font);
+  font-size: 14px;
+  color: var(--header-link-kolor);
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 35px;
+  margin-left: auto;
+  margin-right: auto;
 }
